@@ -14,6 +14,10 @@ import { Explore1Component } from './explore1/explore1.component';
 import { NewsLetterComponent } from './news-letter/news-letter.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExploreComponent } from './explore/explore.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { ExploreComponent } from './explore/explore.component';
     Explore1Component,
     NewsLetterComponent,
     FooterComponent,
-    ExploreComponent
+    ExploreComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactUsComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
